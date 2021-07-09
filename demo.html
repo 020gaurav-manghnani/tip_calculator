@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>demo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="demo.css"  />
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+</head>
+
+<body>
+  <main>
+      <h1>tip calculator</h1>
+      <div>
+          <label>Bill Amount</label>
+          <input type="text" placeholder="Enter Amount" id="bill_amount">
+          <br>
+          <label>tip percentage</label>
+          <input type="text" placeholder="tip percentage" id="tip_perc">
+          <br>
+          <label>tip Amount</label>
+          <input type="text" placeholder="tip Amount" id="tip_amnt" disabled>
+          <br>
+          <label>total bill</label>
+          <input type="text" placeholder="total bill" id="total_bill" disabled>
+          <br>
+               
+          <button onclick="tip_calcy()"> Calculate</button>
+      </div>
+  </main>
+
+
+  <script src="demo.js"></script>
+</body>
+</html>
